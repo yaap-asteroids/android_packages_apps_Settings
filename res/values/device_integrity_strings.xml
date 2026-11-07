@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="device_integrity_title">Device integrity</string>
+    <string name="device_integrity_summary">Device certificates, automatic renewal and app compatibility</string>
+    <string name="device_integrity_enable">Use device integrity features</string>
+    <string name="device_integrity_enable_summary">Apply your configuration to selected apps. Google Play services and Play Store restart when settings change.</string>
+    <string name="device_integrity_device_category">Device certificates</string>
+    <string name="device_integrity_rkp">Use device provisioning</string>
+    <string name="device_integrity_rkp_summary">Request certificates through this device and renew them automatically before expiry.</string>
+    <string name="device_integrity_status">Provisioning status</string>
+    <string name="device_integrity_expiry">Device certificate expires</string>
+    <string name="device_integrity_renewal">Automatic renewal</string>
+    <string name="device_integrity_provision">Provision now</string>
+    <string name="device_integrity_provision_summary">Request a new certificate. A network connection is required.</string>
+    <string name="device_integrity_apps_category">App compatibility</string>
+    <string name="device_integrity_targets">Selected apps</string>
+    <string name="device_integrity_targets_summary">One package per line. Add ! to generate, ? to replace the certificate leaf, or - to skip. Restart affected apps after editing.</string>
+    <string name="device_integrity_pif">Play Integrity profile</string>
+    <string name="device_integrity_pif_summary">Edit a JSON or key=value profile for Google Play services and Play Store. Leave empty to use the device identity.</string>
+    <string name="device_integrity_patch">Attestation patch configuration</string>
+    <string name="device_integrity_patch_summary">Optional JSON patch configuration. Leave empty to keep the existing patch values.</string>
+    <string name="device_integrity_keys_category">Imported signing key</string>
+    <string name="device_integrity_import">Import keybox</string>
+    <string name="device_integrity_import_summary">Choose your keybox XML. Importing switches off device provisioning.</string>
+    <string name="device_integrity_remove">Remove imported keybox</string>
+    <string name="device_integrity_remove_confirm">Remove the imported signing key? You can then enable device provisioning.</string>
+    <string name="device_integrity_about_title">About device integrity</string>
+    <string name="device_integrity_about">Certificate provisioning does not verify a Play Integrity verdict. App compatibility and server acceptance must be checked separately.</string>
+    <string name="device_integrity_owner_only">Managed by the primary device user</string>
+    <string name="device_integrity_loading">Checking device provisioning…</string>
+    <string name="device_integrity_disabled">Off</string>
+    <string name="device_integrity_ready">Certificate ready and active</string>
+    <string name="device_integrity_saved">Certificate saved; features are off</string>
+    <string name="device_integrity_idle">Ready to provision</string>
+    <string name="device_integrity_unsupported">Device provisioning service is unavailable</string>
+    <string name="device_integrity_imported">Using an imported keybox</string>
+    <string name="device_integrity_none">No device certificate</string>
+    <string name="device_integrity_waiting">Waiting for a network connection</string>
+    <string name="device_integrity_paused">Paused after an error; use Provision now to retry</string>
+    <string name="device_integrity_hardware">Contacting device security hardware…</string>
+    <string name="device_integrity_fetching">Fetching a provisioning challenge…</string>
+    <string name="device_integrity_signing">Requesting signed certificates…</string>
+    <string name="device_integrity_saving">Validating and saving certificates…</string>
+    <string name="device_integrity_cooldown">Try again in %1$d seconds</string>
+    <string name="device_integrity_error_network">Could not reach the provisioning server. Check your connection.</string>
+    <string name="device_integrity_error_hardware">The device security hardware rejected or could not complete this request.</string>
+    <string name="device_integrity_error_certificate">The certificate response could not be validated.</string>
+    <string name="device_integrity_error_storage">Could not save the provisioning state.</string>
+    <string name="device_integrity_error_timeout">Provisioning timed out.</string>
+    <string name="device_integrity_error_generic">Provisioning needs attention.</string>
+    <string name="device_integrity_error_detail">%1$s (%2$s, %3$d)</string>
+    <string name="device_integrity_action_failed">Could not apply this change: %1$s</string>
+    <string name="device_integrity_file_invalid">Choose a nonempty UTF-8 keybox XML smaller than 64 KiB.</string>
+    <string name="device_integrity_configured">Profile configured</string>
+    <string name="device_integrity_unconfigured">Using device identity</string>
+    <string name="device_integrity_targets_count">%1$d configured app rules</string>
+    <string name="device_integrity_save">Save</string>
+    <string name="device_integrity_search_apps">Search apps or package names</string>
+    <string name="device_integrity_edit_rules">Edit package rules</string>
+    <string-array name="device_integrity_app_modes">
+        <item>Off</item>
+        <item>Automatic</item>
+        <item>Generate certificate</item>
+        <item>Replace certificate leaf</item>
+    </string-array>
+</resources>

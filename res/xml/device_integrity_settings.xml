@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/device_integrity_title">
+    <SwitchPreferenceCompat android:key="integrity_master"
+        android:title="@string/device_integrity_enable"
+        android:summary="@string/device_integrity_enable_summary"
+        android:persistent="false" />
+    <PreferenceCategory android:key="integrity_device_category"
+        android:title="@string/device_integrity_device_category">
+        <SwitchPreferenceCompat android:key="integrity_rkp"
+            android:title="@string/device_integrity_rkp"
+            android:summary="@string/device_integrity_rkp_summary"
+            android:persistent="false" />
+        <Preference android:key="integrity_status" android:selectable="false"
+            android:title="@string/device_integrity_status" />
+        <Preference android:key="integrity_expiry" android:selectable="false"
+            android:title="@string/device_integrity_expiry" />
+        <Preference android:key="integrity_renewal" android:selectable="false"
+            android:title="@string/device_integrity_renewal" />
+        <Preference android:key="integrity_provision"
+            android:title="@string/device_integrity_provision"
+            android:summary="@string/device_integrity_provision_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="integrity_apps_category"
+        android:title="@string/device_integrity_apps_category">
+        <Preference android:key="integrity_targets"
+            android:title="@string/device_integrity_targets"
+            android:summary="@string/device_integrity_targets_summary" />
+        <Preference android:key="integrity_pif"
+            android:title="@string/device_integrity_pif"
+            android:summary="@string/device_integrity_pif_summary" />
+        <Preference android:key="integrity_patch"
+            android:title="@string/device_integrity_patch"
+            android:summary="@string/device_integrity_patch_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="integrity_keys_category"
+        android:title="@string/device_integrity_keys_category">
+        <Preference android:key="integrity_import"
+            android:title="@string/device_integrity_import"
+            android:summary="@string/device_integrity_import_summary" />
+        <Preference android:key="integrity_remove"
+            android:title="@string/device_integrity_remove" />
+    </PreferenceCategory>
+    <Preference android:key="integrity_about" android:selectable="false"
+        android:title="@string/device_integrity_about_title"
+        android:summary="@string/device_integrity_about" />
+</PreferenceScreen>

@@ -71,4 +71,9 @@
         settings:controller="com.android.settings.security.SecurityAdvancedSettingsController"
         settings:keywords="@string/security_advanced_settings_keywords" />
 
+    <Preference
+        android:key="device_integrity"
+        android:title="@string/device_integrity_title"
+        android:summary="@string/device_integrity_summary"
+        android:fragment="com.android.settings.security.DeviceIntegritySettings" />
 </PreferenceScreen>

@@ -273,6 +273,7 @@ public class SettingsGateway {
             PrivacyControlsFragment.class.getName(),
             LocationServices.class.getName(),
             SecuritySettings.class.getName(),
+            com.android.settings.security.DeviceIntegritySettings.class.getName(),
             SecurityAdvancedSettings.class.getName(),
             MoreSecurityPrivacyFragment.class.getName(),
             UsageAccessDetails.class.getName(),

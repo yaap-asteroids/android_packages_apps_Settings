@@ -248,6 +248,12 @@
             android:fragment="com.android.settings.emergency.EmergencyDashboardFragment"
             settings:isPreferenceVisible="@bool/config_show_emergency_settings"
             settings:highlightableMenuKey="@string/menu_key_emergency"/>
+        <com.android.settings.widget.HomepagePreference
+            android:key="top_level_device_integrity"
+            android:icon="@drawable/ic_settings_security_filled"
+            android:title="@string/device_integrity_title"
+            android:summary="@string/device_integrity_summary"
+            android:fragment="com.android.settings.security.DeviceIntegritySettings" />
     </PreferenceCategory>
 
     <PreferenceCategory
